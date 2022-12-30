@@ -30,7 +30,7 @@ def TestOneInput(data):
     except (ValidationError, json.JSONDecodeError):
         return -1
     except LookupError as e:
-        if random.random() > 0.99:
+        if random.random() > 0.9:
             raise e
         return -1
 
