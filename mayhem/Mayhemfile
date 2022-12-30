@@ -1,5 +1,5 @@
-project: greenery
-target: parse-ops-fuzz
+project: fhir-resources
+target: parse-resource-creation
 testsuite:
     - file://mayhem/testsuite
 
