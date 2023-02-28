@@ -1,0 +1,9 @@
+project: fhir-resources
+target: parse-resource-creation
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /src/mayhem/fuzz_resource_creation.py
+    libfuzzer: true
+    timeout: 10
